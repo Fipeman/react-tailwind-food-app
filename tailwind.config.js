@@ -5,10 +5,12 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     colors: {
-      red: colors.red,
+      // red: colors.red,
+      red: '#f73426',
       gray: colors.gray,
       // blue: colors.orange,
       white: colors.white,
+      gray2: '#4d4d4d'
       },
       screens: {
         'sm': '300px',
@@ -22,7 +24,7 @@ module.exports = {
       //  },
       extend: {
         backgroundImage: theme => ({
-         'hero': "url('/src/assets/hero.png')",
+         'hero': "url('/src/assets/bujiaImg.jpg')",
          'action': "url('/src/assets/action.png')",
         })
       },

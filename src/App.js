@@ -6,7 +6,7 @@ import Step from './components/Step';
 import BottomLead from './components/BottomLead';
 import Footer from './components/Footer';
 
-import logo from "./assets/logo.png";
+import logo from "./assets/bujia2.svg";
 import Rectangle_3 from './assets/Rectangle_3.png';
 import Rectangle_4 from './assets/Rectangle_4.png';
 import Rectangle_5 from './assets/Rectangle_5.png';
@@ -16,8 +16,8 @@ function App() {
   const data = {
     hero:{
       appType: 'Bujia',
-      tagLine: 'Mantiene al dia y en forma tus registro de tu vehiculo',
-      description: 'Ingresa a la plataforma ahora, es SUPER simple!',
+      tagLine: 'Mantiene al dia todos los registros de tu vehiculo',
+      description: 'Ingresa a la plataforma ahora!, es SUPER simple!',
       mainActionText: 'Ingresa',
       extraActionText: 'Registrate',
     },
@@ -67,7 +67,7 @@ function App() {
         
         <div id="divider" className="rounded-full ring-2 ring-gray-200 lg:w-1/2 lg:mx-auto "></div>
         
-        <div id="faq" className="pt-20 mb-20 text-3xl font-semibold text-center text-blue-800 lg:font-bold">How the app works </div>
+        <div id="faq" className="pt-20 mb-20 text-3xl font-semibold text-center text-gray2 lg:font-bold">How the app works </div>
         
         <Step
           title={data.step1.title}

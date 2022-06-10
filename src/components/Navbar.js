@@ -28,9 +28,9 @@ const Navbar = ({logo}) => {
   useOutsideAlerter(wrapperRef, setOpenNav);
 
   return (
-    <div className="flex flex-row items-center justify-between h-28">
+    <div className="flex flex-row items-center justify-between h-24">
       <a href="/" className="pl-7 logo lg:ml-10">
-        <img height="65%" width="65%" src={logo} alt="logo" />
+        <img height="100vhm" width="100vhm" src={logo} alt="logo" />
       </a>
 
           {/* Mobile Nav */}
@@ -44,10 +44,10 @@ const Navbar = ({logo}) => {
               <div ref={wrapperRef} className="absolute top-0 w-full h-48 bg-white">
                 <div onClick={()=>setOpenNav(false)} className="absolute right-12 top-9"><img height="30" width="30" src={close_icon} alt="" /></div>
                 <div className="flex flex-col items-center justify-around h-full pt-5">
-                  <a onClick={()=>setOpenNav(false)} href="/" className="text-lg font-semibold text-blue-800 transition-all hover:text-orange-500">Home</a>
-                  <a onClick={()=>setOpenNav(false)} href="#product" className="text-lg font-semibold text-blue-800 transition-all hover:text-orange-500">Product</a>
-                  <a onClick={()=>setOpenNav(false)} href="#faq" className="text-lg font-semibold text-blue-800 transition-all hover:text-orange-500">Faq</a>
-                  <a onClick={()=>setOpenNav(false)} href="#contact" className="text-lg font-semibold text-blue-800 transition-all hover:text-orange-500">Contact</a>
+                  <a onClick={()=>setOpenNav(false)} href="/" className="text-lg font-semibold text-gray2 transition-all hover:text-red">Home</a>
+                  <a onClick={()=>setOpenNav(false)} href="#product" className="text-lg font-semibold text-gray2 transition-all hover:text-red">Como funciona?</a>
+                  <a onClick={()=>setOpenNav(false)} href="#faq" className="text-lg font-semibold text-gray2 transition-all hover:text-red">Beneficios</a>
+                  <a onClick={()=>setOpenNav(false)} href="#contact" className="text-lg font-semibold text-gray2 transition-all hover:text-red">Bujia Partner</a>
                 </div>
               </div>
           }
@@ -56,12 +56,11 @@ const Navbar = ({logo}) => {
           {/* Desktop Nav */}
 
           <div className="flex justify-around w-2/5 mr-12 lg:visible sm:invisible">
-              <a href="#home" className="text-lg font-semibold text-blue-800 transition-all hover:text-orange-500">Home</a>
-              <a href="#product" className="text-lg font-semibold text-blue-800 transition-all hover:text-orange-500">Product</a>
-              <a href="#faq" className="text-lg font-semibold text-blue-800 transition-all hover:text-orange-500">Faq</a>
-              <a href="#contact" className="text-lg font-semibold text-blue-800 transition-all hover:text-orange-500">Contact</a>
+              <a href="#home" className="text-lg font-semibold text-gray2 transition-all hover:text-red">Home</a>
+              <a href="#product" className="text-lg font-semibold text-gray2 transition-all hover:text-red">Como funciona?</a>
+              <a href="#faq" className="text-lg font-semibold text-gray2 transition-all hover:text-red">Beneficios</a>
+              <a href="#contact" className="text-lg font-semibold text-gray2 transition-all hover:ttext-red">Bujia Partner</a>
           </div>
-
     </div>
   );
 };
