@@ -15,11 +15,11 @@ import Rectangle_5 from './assets/Rectangle_5.png';
 function App() {
   const data = {
     hero:{
-      appType: 'Food app',
-      tagLine: 'Why stay hungry when you can order from Bella Onojie',
-      description: 'Download the bella onoje’s food app now on',
-      mainActionText: 'Playstore',
-      extraActionText: 'App Store',
+      appType: 'Bujia',
+      tagLine: 'Mantiene al dia y en forma tus registro de tu vehiculo',
+      description: 'Ingresa a la plataforma ahora, es SUPER simple!',
+      mainActionText: 'Ingresa',
+      extraActionText: 'Registrate',
     },
     step1: {
       title: 'Create an account',
@@ -45,8 +45,8 @@ function App() {
     bottomLead: {
       actionText: 'Download the app now.',
       description: 'Available on your favourite store. Start your premium experience now.',
-      mainActionText: 'Playstore',
-      extraActionText: 'App Store',
+      mainActionText: 'Ingresa',
+      extraActionText: 'Registrate',
     },
   }
   return (
