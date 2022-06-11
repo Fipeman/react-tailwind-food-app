@@ -7,7 +7,7 @@ import BottomLead from './components/BottomLead';
 import Footer from './components/Footer';
 
 import logo from "./assets/bujia2.svg";
-import Rectangle_3 from './assets/Rectangle_3.png';
+import Rectangle_3 from './assets/PcMobileBujia.png';
 import Rectangle_4 from './assets/Rectangle_4.png';
 import Rectangle_5 from './assets/Rectangle_5.png';
 
@@ -22,9 +22,9 @@ function App() {
       extraActionText: 'Registrate',
     },
     step1: {
-      title: 'Create an account',
-      heading: 'Create/login to an existing account to get started',
-      description: 'An account is created with your email and a desired password',
+      title: 'Crea una cuenta',
+      heading: 'Puedes crear una cuenta o ingresar con tus RRSS',
+      // description: 'An account is created with your email and a desired password',
       img: Rectangle_3,
       alternate: false,
     },
@@ -53,7 +53,7 @@ function App() {
     // __________________________TODO: ____________________
     // Add Montserrat font to everything (body)
     
-    <div className="box-border">
+    <div className="box-border font-Inter">
       <div className="flex flex-col">
         
         <Navbar logo={logo}/>
@@ -65,9 +65,9 @@ function App() {
           extraActionText={data.hero.extraActionText}
         />
         
-        <div id="divider" className="rounded-full ring-2 ring-gray-200 lg:w-1/2 lg:mx-auto "></div>
+        {/* <div id="divider" className="rounded-full ring-2 ring-gray-200 lg:w-1/2 lg:mx-auto "></div> */}
         
-        <div id="faq" className="pt-20 mb-20 text-3xl font-semibold text-center text-gray2 lg:font-bold">How the app works </div>
+        <div id="faq" className="lg:pt-20 lg:mb-20 sm:pt-8 sm: mb-8 text-2xl font-semibold text-center text-gray2 lg:font-bold">¿Como funciona? </div>
         
         <Step
           title={data.step1.title}

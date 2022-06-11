@@ -45,9 +45,9 @@ const Navbar = ({logo}) => {
                 <div onClick={()=>setOpenNav(false)} className="absolute right-12 top-9"><img height="30" width="30" src={close_icon} alt="" /></div>
                 <div className="flex flex-col items-center justify-around h-full pt-5">
                   <a onClick={()=>setOpenNav(false)} href="/" className="text-lg font-semibold text-gray2 transition-all hover:text-red">Home</a>
-                  <a onClick={()=>setOpenNav(false)} href="#product" className="text-lg font-semibold text-gray2 transition-all hover:text-red">Como funciona?</a>
+                  <a onClick={()=>setOpenNav(false)} href="#product" className="text-lg font-semibold text-gray2 transition-all hover:text-red">¿Como funciona?</a>
                   <a onClick={()=>setOpenNav(false)} href="#faq" className="text-lg font-semibold text-gray2 transition-all hover:text-red">Beneficios</a>
-                  <a onClick={()=>setOpenNav(false)} href="#contact" className="text-lg font-semibold text-gray2 transition-all hover:text-red">Bujia Partner</a>
+                  <a onClick={()=>setOpenNav(false)} href="#contact" className="text-lg font-bold text-red transition-all hover:text-red hover:ring-white hover:ring-4">Bujia Partner</a>
                 </div>
               </div>
           }
@@ -57,9 +57,9 @@ const Navbar = ({logo}) => {
 
           <div className="flex justify-around w-2/5 mr-12 lg:visible sm:invisible">
               <a href="#home" className="text-lg font-semibold text-gray2 transition-all hover:text-red">Home</a>
-              <a href="#product" className="text-lg font-semibold text-gray2 transition-all hover:text-red">Como funciona?</a>
+              <a href="#product" className="text-lg font-semibold text-gray2 transition-all hover:text-red">¿Como funciona?</a>
               <a href="#faq" className="text-lg font-semibold text-gray2 transition-all hover:text-red">Beneficios</a>
-              <a href="#contact" className="text-lg font-semibold text-gray2 transition-all hover:ttext-red">Bujia Partner</a>
+              <a href="#contact" className="text-lg font-bold text-red transition-all hover:ring-red hover:ring-4">Bujia Partner</a>
           </div>
     </div>
   );
