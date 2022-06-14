@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.25da8514.chunk.css",
+    "main.js": "/static/js/main.0eab090c.chunk.js",
+    "main.js.map": "/static/js/main.0eab090c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.89b4a47a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.89b4a47a.js.map",
+    "static/js/2.004559ad.chunk.js": "/static/js/2.004559ad.chunk.js",
+    "static/js/2.004559ad.chunk.js.map": "/static/js/2.004559ad.chunk.js.map",
+    "static/js/3.119a3c05.chunk.js": "/static/js/3.119a3c05.chunk.js",
+    "static/js/3.119a3c05.chunk.js.map": "/static/js/3.119a3c05.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.25da8514.chunk.css.map": "/static/css/main.25da8514.chunk.css.map",
+    "static/js/2.004559ad.chunk.js.LICENSE.txt": "/static/js/2.004559ad.chunk.js.LICENSE.txt",
+    "static/media/2PcMobileBujia.267b2ed9.png": "/static/media/2PcMobileBujia.267b2ed9.png",
+    "static/media/PcMobileBujia.6f54fa61.png": "/static/media/PcMobileBujia.6f54fa61.png",
+    "static/media/Rectangle_1.30c3b5ed.png": "/static/media/Rectangle_1.30c3b5ed.png",
+    "static/media/Rectangle_2.71c48fa9.png": "/static/media/Rectangle_2.71c48fa9.png",
+    "static/media/index.css": "/static/media/bg2.fc6a5c03.jpg",
+    "static/media/bujia2.39d4f163.svg": "/static/media/bujia2.39d4f163.svg",
+    "static/media/bujiaRewards.1de8aaea.png": "/static/media/bujiaRewards.1de8aaea.png",
+    "static/media/close_icon.c04519a7.svg": "/static/media/close_icon.c04519a7.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.89b4a47a.js",
+    "static/js/2.004559ad.chunk.js",
+    "static/css/main.25da8514.chunk.css",
+    "static/js/main.0eab090c.chunk.js"
+  ]
+}
