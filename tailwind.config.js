@@ -26,8 +26,8 @@ module.exports = {
        },
       extend: {
         backgroundImage: theme => ({
-         'hero': "url('/src/assets/bujiaImg.jpg')",
-         'action': "url('/src/assets/action.png')",
+         'hero': "url('/src/assets/bg1.png')",
+         'action': "url('/src/assets/bg2.jpg')",
          'Gradient': "linear-gradient(to right top, #4d4d4d, #565656, #606060, #696969, #737373, #7d7d7d, #888888, #929292, #a0a0a0, #afafaf, #bdbdbd, #cccccc)",
         //  'Gradient2': "bg-gradient-to-bl from-slate-50 via-gray-400 to-red-900"
         })

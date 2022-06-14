@@ -8,8 +8,8 @@ import Footer from './components/Footer';
 
 import logo from "./assets/bujia2.svg";
 import Rectangle_3 from './assets/PcMobileBujia.png';
-import Rectangle_4 from './assets/Rectangle_4.png';
-import Rectangle_5 from './assets/Rectangle_5.png';
+import Rectangle_4 from './assets/2PcMobileBujia.png';
+import Rectangle_5 from './assets/bujiaRewards.png';
 
 
 function App() {
@@ -24,29 +24,30 @@ function App() {
     step1: {
       title: 'Crea una cuenta',
       heading: 'Puedes crear una cuenta o ingresar con tus RRSS',
-      // description: 'An account is created with your email and a desired password',
+      description: 'asi de simple ya tienes tu cuenta en bujia y puedes empezar a utilizar la plataforma GRATIS!',
       img: Rectangle_3,
       alternate: false,
     },
     step2: {
-      title: 'Explore while shopping',
-      heading: 'Shop for your favorites meal as e dey hot.',
-      description: 'Shop for your favorite meals or drinks and enjoy while doing it.',
+      title: 'Explora tu panel de usuario',
+      heading: 'registra tu auto y comienza la experiencia Bujia',
+      description: 'facilmente registra tu auto con lso campos solicitados y luego comienza a subir los registros de mantencion/servicios que le has realizado',
       img: Rectangle_4,
       alternate: true,
     },
     step3: {
-      title: 'Checkout',
-      heading: "When you're done, check out and get it delivered.",
-      description: "When you're done, check out and get it  delivered with ease.",
+      title: 'Beneficios',
+      heading: "Obten muchos beneficios con Bujia junto a nuestro programa de rewards!",
+      description: "Cada vez que interactuas con Bujia acumulas puntos los cuales te otorgan nivel para acceder a descuentos y promociones en el mundo automotriz",
       img: Rectangle_5,
       alternate: false,
     },
     bottomLead: {
-      actionText: 'Download the app now.',
-      description: 'Available on your favourite store. Start your premium experience now.',
+      actionText: 'Se parte de',
+      extraText:'Bujia Partner',
+      description: 'Es una plataforma con la cual podras llevar a tu negocio a otro nivel en la transformacion digital',
       mainActionText: 'Ingresa',
-      extraActionText: 'Registrate',
+      extraActionText: 'Mas info',
     },
   }
   return (
@@ -93,6 +94,7 @@ function App() {
           
           <BottomLead 
             actionText={data.bottomLead.actionText}
+            extraText={data.bottomLead.extraText}
             description={data.bottomLead.description}
             mainActionText={data.bottomLead.mainActionText}
             extraActionText={data.bottomLead.extraActionText}

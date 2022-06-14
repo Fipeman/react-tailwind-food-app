@@ -28,7 +28,7 @@ const Navbar = ({logo}) => {
   useOutsideAlerter(wrapperRef, setOpenNav);
 
   return (
-    <div className="flex flex-row items-center justify-between h-24">
+    <div className="sticky top-0 flex flex-row items-center shadow-lg justify-between h-24 bg-white">
       <a href="/" className="pl-7 logo lg:ml-10">
         <img height="100vhm" width="100vhm" src={logo} alt="logo" />
       </a>
@@ -47,7 +47,7 @@ const Navbar = ({logo}) => {
                   <a onClick={()=>setOpenNav(false)} href="/" className="text-lg font-semibold text-gray2 transition-all hover:text-red">Home</a>
                   <a onClick={()=>setOpenNav(false)} href="#product" className="text-lg font-semibold text-gray2 transition-all hover:text-red">¿Como funciona?</a>
                   <a onClick={()=>setOpenNav(false)} href="#faq" className="text-lg font-semibold text-gray2 transition-all hover:text-red">Beneficios</a>
-                  <a onClick={()=>setOpenNav(false)} href="#contact" className="text-lg font-bold text-red transition-all hover:text-red hover:ring-white hover:ring-4">Bujia Partner</a>
+                  <a onClick={()=>setOpenNav(false)} href="#contact" className="transition text-lg font-bold text-red transition-all">Bujia Partner</a>
                 </div>
               </div>
           }
@@ -59,7 +59,7 @@ const Navbar = ({logo}) => {
               <a href="#home" className="text-lg font-semibold text-gray2 transition-all hover:text-red">Home</a>
               <a href="#product" className="text-lg font-semibold text-gray2 transition-all hover:text-red">¿Como funciona?</a>
               <a href="#faq" className="text-lg font-semibold text-gray2 transition-all hover:text-red">Beneficios</a>
-              <a href="#contact" className="text-lg font-bold text-red transition-all hover:ring-red hover:ring-4">Bujia Partner</a>
+              <a href="#contact" className="text-lg font-bold text-red animate-pulse transition-all">Bujia Partner</a>
           </div>
     </div>
   );
